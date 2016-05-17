@@ -1,11 +1,23 @@
 <html>
 <head>
 <style>
-#header {
-    background-color:white;
-    color:black;
-    text-align:center;
-}
+    div.background {
+        background: <img src="images/P1020355.JPG" alt="Felted Cornucopia" style="width:880px;height:500px;" data-rotate="90"> repeat;
+        border: 2px solid black;
+    }
+    div.transbox {
+        margin: 30px;
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity; 0.6;
+        filter:alpha(opacity=60); /* For IE8 and earlier 
+    */    
+    }
+   div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+   }
 #nav {
     line-height:30px;
     background-color:#eeeeee;
@@ -30,10 +42,11 @@
 </head>
 <body>
 
-<div id="header">
-<h1><i>Horn of Plenty</i></h1>
-<h2><i>A cornucopia of creativity</i></h2>
-<img src="images/P1020355.JPG" alt="Felted Cornucopia" style="width:880px;height:500px;" data-rotate="90">
+<div class="background">
+  <div class="transbox">
+    <p>Horn of Plenty</p>
+    <p><i>A Cornucopia of Creativity</i></p>
+  </div>
 </div>
 
 <div id="nav">
